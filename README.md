@@ -1,4 +1,4 @@
-url
+URL / Link
 https://potatoct.github.io/AIO-Online_Tool/
-source code is open
->> haven't optimize for mobile yet <<
+Source code is open
+Haven't optimize for mobile yet
