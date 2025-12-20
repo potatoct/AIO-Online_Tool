@@ -1,6 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
+    color: black;
     background-image: url('bg.jpg');
     background-repeat: auto;
     background-size: cover;
@@ -15,23 +16,26 @@ table tr th .p33{
     padding: 10px 120px;
     font-size: 30px;
     color: black;
-    background-color: #f800004d;
+    background-color: #03cf0d62;
 }
 span.r{
-    background-color: #11d4114b;
     float: left;
-    margin: 10px 45px;
+    margin: 15px 30px;
     transition: all 0.5s ease 0.1s;
     border-radius: 15px 15px 15px 15px;
 }
-button{ 
-    font-family: cursive;
+span.r h2 { 
+    display: inline-block; 
+    margin-right: 20px;
+}
+img{
+    width:60px;
+    height:60px;
+    vertical-align:middle;
+}
+button{
     border: none;
-    background-color: gray;
-    color: white;
     text-decoration: none;
-    float: left;
-    margin-left: 20px;
     transition: all 0.3s ease 0s;
 }
 a:hover{
@@ -41,12 +45,13 @@ a:hover{
 a{
     text-decoration: none;
     color: black;
-}
+}   
 h2{
-    color: lightblue;
     font-style: oblique;
     text-align: center;
     padding: 1px 15px;
+    background-color: rgba(255, 255, 255, 0.486);
+    border-radius: 15px 15px 15px 15px;
 }
 h2:hover{
     background-color:  #ffffff9a;
